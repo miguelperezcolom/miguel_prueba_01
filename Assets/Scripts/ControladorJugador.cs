@@ -31,7 +31,7 @@ public class ControladorJugador : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             //transform.Translate(Vector3.up);
-            rigidBody.AddForce(Vector2.up * 200);
+            rigidBody.AddForce(Vector2.up * 150);
         }
         
         
